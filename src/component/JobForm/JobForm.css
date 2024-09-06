@@ -1,0 +1,60 @@
+.job-form-container {
+  background-color: rgb(237, 237, 237);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-box {
+  height: 600px;
+  width: 500px;
+  border: 1px solid black;
+}
+.jobs-heading {
+  text-align: center;
+  margin-top: 30%;
+}
+.steps-button {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.previous-button {
+  cursor: pointer;
+}
+.previous-button :hover {
+  font-size: 35px;
+}
+.next-button {
+  cursor: pointer;
+}
+.next-button:hover {
+  font-size: 35px;
+}
+.select-gender {
+  text-align: center;
+}
+.skills {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.country,
+.language {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.submit-button button {
+  height: 30px;
+  width: 100px;
+}
